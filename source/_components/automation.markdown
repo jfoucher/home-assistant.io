@@ -231,7 +231,7 @@ automation:
 #### {% linkable_title Numeric state condition %}
 
 This type of condition attempts to parse the state of specified entity as a number and triggers if the value matches all of the above or below thresholds.  
-Either `above` or `below`, or both need to be specified. If both are used, the condition is true when the value is >= `before` *and** < `after`.  
+Either `above` or `below`, or both need to be specified. If both are used, the condition is true when the value is >= `below` *and** < `above`.  
 You can optionally use a `value_template` to make the value of the entity the same type of value as the condition. 
 
 ```yaml
